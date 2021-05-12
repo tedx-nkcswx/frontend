@@ -164,7 +164,8 @@ const Home = () => {
                 title="The What"
                 description="What we aim to cover in our TEDx programme"
                 buttonText="View More"
-                buttonLink="/projects/smart-sparrow"
+                // buttonLink="/projects/smart-sparrow"
+                buttonLink="#"
                 model={{
                     type: 'laptop',
                     alt: 'Smart Sparrow lesson builder',
@@ -186,7 +187,8 @@ const Home = () => {
                 title="Sustainable Development"
                 description="How we are to achieve sustainable development in this TEDx programme"
                 buttonText="View More"
-                buttonLink="https://gamestackapp.com"
+                // buttonLink="https://gamestackapp.com"
+                buttonLink="#"
                 model={{
                     type: 'phone',
                     alt: 'App login screen',
@@ -211,8 +213,9 @@ const Home = () => {
                 index={3}
                 title="Buy Ticket"
                 description="Buy a ticket to join our programme"
-                buttonText="View Project"
-                buttonLink="/projects/slice"
+                buttonText="Buy Ticket"
+                // buttonLink="/projects/slice"
+                buttonLink="#"
                 model={{
                     type: 'laptop',
                     alt: 'Annotating a biomedical image in the Slice app',
