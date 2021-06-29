@@ -24,8 +24,6 @@ jobs:
       - name: Build 🏗️
         run: npm run build
 
-jobs:
-  build:
     name: Build
     runs-on: ubuntu-latest
     steps:
