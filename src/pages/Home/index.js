@@ -141,7 +141,7 @@ const Home = () => {
     return (
         <div className="home">
             <Helmet>
-                <title>Tedx@NKCSWX | Designer + Developer</title>
+                <title>Tedx@NKCSWX | Meaning of Choices</title>
                 <meta
                     name="description"
                     content="Portfolio of TEDx@NKCSWX team – a digital designer working on web &amp; mobile
