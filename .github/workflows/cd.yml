@@ -17,4 +17,4 @@ jobs:
           script: | 
             cd ${{ secrets.PATH }}
             git pull
-            npm run build
+            npm run build --no-sandbox
