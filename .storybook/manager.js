@@ -6,6 +6,6 @@ addons.setConfig({
     ...themes.dark,
     brandImage: 'https://hamishw.com/icon.svg',
     brandTitle: 'TEDx@NKCSWX team Components',
-    brandUrl: 'https://hamishw.com',
+    brandUrl: 'https://tedx.workermen.cyou',
   },
 });

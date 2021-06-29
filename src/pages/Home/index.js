@@ -144,8 +144,7 @@ const Home = () => {
                 <title>Tedx@NKCSWX | Meaning of Choices</title>
                 <meta
                     name="description"
-                    content="Portfolio of TEDx@NKCSWX team – a digital designer working on web &amp; mobile
-          apps with a focus on motion and user experience design."
+                    content="Website of TEDx@NKCSWX – a TEDx event hosted by NKCSWX"
                 />
                 <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
                 <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />
