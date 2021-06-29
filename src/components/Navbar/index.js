@@ -1,7 +1,7 @@
 import { useRef, useState, memo } from 'react';
 import { NavLink, Link as RouterLink } from 'react-router-dom';
 import { Transition } from 'react-transition-group';
-import Monogram from 'components/Monogram';
+// import Monogram from 'components/Monogram';
 import Icon from 'components/Icon';
 import NavToggle from './NavToggle';
 import ThemeToggle from './ThemeToggle';
@@ -62,7 +62,7 @@ function Header(props) {
         onClick={handleMobileNavClick}
         onMouseUp={blurOnMouseUp}
       >
-        <Monogram highlight />
+        {/* <Monogram highlight /> */}
       </RouterLink>
       <NavToggle onClick={() => dispatch({ type: 'toggleMenu' })} menuOpen={menuOpen} />
       <nav className="navbar__nav">
