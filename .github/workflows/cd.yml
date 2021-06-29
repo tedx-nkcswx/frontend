@@ -1,0 +1,42 @@
+name: cd
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: CI 🔧
+        run: npm ci
+
+      - name: Lint 🧐
+        run: npm run lint
+
+      - name: Test 🚨
+        run: npm test
+
+      - name: Build 🏗️
+        run: npm run build
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: | 
+          cd ${{ secrets.PATH }}
+          git pull
+          npm run build
