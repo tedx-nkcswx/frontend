@@ -3,18 +3,18 @@ name: cd
 on: push
 
 jobs:
-	build:
-		runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-		steps:
-			- name: executing remote ssh commands using password
-				uses: appleboy/ssh-action@master
-				with:
-					host: ${{ secrets.HOST }}
-					username: ${{ secrets.USERNAME }}
-					password: ${{ secrets.PASSWORD }}
-					port: ${{ secrets.PORT }}
-					script: | 
-						cd ${{ secrets.PATH }}
-						git pull
-						npm run build --no-sandbox
+    steps:
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: | 
+            cd ${{ secrets.PATH }}
+            git pull
+            npm run build --no-sandbox
