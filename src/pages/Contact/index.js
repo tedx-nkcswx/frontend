@@ -136,7 +136,7 @@ const Contact = () => {
                                     )}
                                 >
                                     <DecoderText
-                                        text="Met a problem?"
+                                        text="Want to talk to us?"
                                         start={status !== 'exited' && !prerender}
                                         delay={300}
                                     />
