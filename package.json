@@ -1,10 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://hamishw.com",
-  "description": "Portfolio site for TEDx@NKCSWX team",
-  "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "TEDx@NKCSWX team <hello@hamishw.com>",
+  "homepage": "https://tedx.workermen.cyou",
+  "description": "TEDx Site",
+  "repository": "https://github.com/tedx-nkcswx/website.git",
+  "author": "KnowsCount <knowscount@gmail.com>",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@hamishmw/react-scripts-postcss": "4.0.0-mod1",
@@ -30,13 +30,12 @@
     "@mdx-js/react": "^1.6.22",
     "classnames": "^2.2.6",
     "popmotion": "^8.7.5",
-    "puppeteer": "^1.20.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-router-dom": "5.2.0",
     "react-transition-group": "^4.4.1",
-    "three": "^0.126.0"
+    "three": "^0.129.0"
   },
   "scripts": {
     "start": "react-scripts start",
