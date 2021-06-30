@@ -101,7 +101,7 @@ const Contact = () => {
                 <title>Contact | TEDx@NKCSWX team</title>
                 <meta
                     name="description"
-                    content="Send me a message if you’re interested in discussing a project or if you just want to say hi"
+	            content="contact us to tell us any problems."
                 />
             </Helmet>
             <TransitionGroup component={null}>
