@@ -62,8 +62,9 @@ const Contact = () => {
 
             try {
                 setSending(true);
-
-                const response = await fetch('https://api.hamishw.com/message', {
+                // I just cant make this fucking backend work. dang it. i know nothing about backend and nothing about fucking serverless...
+                // this api.foo.com is obviously fake so please do not expect it to work
+                const response = await fetch('https://api.foo.com/message', {
                     method: 'POST',
                     mode: 'cors',
                     headers: {
@@ -99,10 +100,7 @@ const Contact = () => {
         <Section className={classNames('contact', `contact--${status}`)}>
             <Helmet>
                 <title>Contact | TEDx@NKCSWX team</title>
-                <meta
-                    name="description"
-	            content="contact us to tell us any problems."
-                />
+                <meta name="description" content="met some problems? tell us here!" />
             </Helmet>
             <TransitionGroup component={null}>
                 {!complete && (
@@ -238,7 +236,7 @@ const Contact = () => {
                                     icon="send"
                                     type="submit"
                                 >
-                                    Send Message
+                                    Currently Unavaliable
                                 </Button>
                             </form>
                         )}
@@ -272,7 +270,7 @@ const Contact = () => {
                                     )}
                                     style={getDelay(tokens.base.durationXS)}
                                 >
-                                    I’ll get back to you within a couple days, sit tight
+                                    I’ll get back to you as soon as possible, sit tight.
                                 </Text>
                                 <Button
                                     secondary
