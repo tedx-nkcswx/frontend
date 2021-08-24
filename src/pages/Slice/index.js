@@ -474,7 +474,7 @@ const ProjectSlice = () => {
                             </div>
                         </div>
                         <div className="slice__grid-text">
-                            <ProjectSectionHeading>Simon Ye</ProjectSectionHeading>
+                            <ProjectSectionHeading>Leona Li</ProjectSectionHeading>
                             <ProjectSectionText
                             // style={`(padding-left: ${media.mobile}px) 548px, (padding-left: ${media.tablet} 747px, 556px)`}
                             // className="last-paragraph"
