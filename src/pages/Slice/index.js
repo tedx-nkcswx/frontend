@@ -254,6 +254,249 @@ const ProjectSlice = () => {
                         </div>
                     </ProjectSectionContent>
                 </ProjectSection>
+                <ProjectSection light>
+                    <ProjectSectionContent>
+                        <ProjectTextRow className="algin-left">
+                            <ProjectSectionHeading>Rain Shen</ProjectSectionHeading>
+                            <ProjectSectionText>
+                                Rain is a grade 10 student from Nanwai King's College
+                                School. He is passionate to share the experience he had
+                                about learning new language, and how is the factor “Grit”
+                                helped him in language learning and further studies. He
+                                wants to convey that “Grit” can be an imperative motivator
+                                in terms of studies, but also a great passion about life.
+                            </ProjectSectionText>
+                        </ProjectTextRow>
+                        <Image
+                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            // placeholder={sliceSlidesPlaceholder}
+                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                        />
+                    </ProjectSectionContent>
+                </ProjectSection>
+                <ProjectSection>
+                    <ProjectSectionContent>
+                        <ProjectTextRow>
+                            <ProjectSectionHeading>
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lily Yu
+                            </ProjectSectionHeading>
+                            <ProjectSectionText>
+                                Lily, an IB student in grade 11 in NKCS. When she was a
+                                14-year-old girl, she went to international boarding
+                                school in New York by herself. One year later, she
+                                transferred to NKCS due the covid-19. The experience that
+                                she underwent within studying abroad taught her how to be
+                                independent, overcame the difficulties, which understood
+                                deeply the meaning of choice. She has a friendly and
+                                outgoing personality, with wide range of interests such as
+                                dancing, piano, tennis, choir, painting, basketball, and
+                                calligraphy. Dancing is one of the most persistent hobby
+                                she had, got Chinese traditional dancing certificate in
+                                level 10, as well as participating in many dancing
+                                competitions and performances. She loves public speaking,
+                                actively participated in speech competitions in and
+                                outside during the primary and secondary school. She was
+                                the finalist of the NSDA 2021Original Oratory high school
+                                group in the national round. The hope is to give some
+                                inspirations and thoughts to students through sharing her
+                                own experience.
+                            </ProjectSectionText>
+                        </ProjectTextRow>
+                        {/* <Image
+                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            // placeholder={sliceSlidesPlaceholder}
+                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                        /> */}
+                    </ProjectSectionContent>
+                </ProjectSection>
+                <ProjectSection>
+                    <ProjectSectionColumns centered className="slice__columns">
+                        <div className="sidebar__images-text">
+                            <ProjectSectionHeading>Fiona You</ProjectSectionHeading>
+                            <ProjectSectionText>
+                                Fiona You graduated from the University of Birmingham in
+                                the United Kingdom in 2003 with a masters degree in
+                                education. After working in the UK for four years, she
+                                returned to her hometown of Wuxi to work as a lecturer at
+                                the School of Foreign Students at Jiangnan University. A
+                                year later she left to join Dipont Education, becoming
+                                responsible for the international curriculum centre at
+                                Wuxi No. 1 Middle School in 2008. Currently, Fiona is
+                                responsible for finance and administration at Nanwai
+                                King’s College School Wuxi.
+                            </ProjectSectionText>
+                            <ProjectSectionText>
+                                She also is responsible for Nanwai King’s College School
+                                Wuxi and Yinghe Bilingual School. Fiona is also a
+                                qualified college counseling teacher, accredited by the
+                                University of California, Los Angeles, supporting many
+                                students through course choices and college applications.
+                                She has visited many universities in different countries
+                                and participated in various industry conferences at home
+                                and abroad.
+                            </ProjectSectionText>
+                        </div>
+                        <div className="slice__sidebar-images">
+                            <Image
+                                className="slice__sidebar-image"
+                                // srcSet={`${sliceSidebarLayers} 300w, ${sliceSidebarLayersLarge} 700w`}
+                                srcSet={`${sliceSidebarLayersPlaceholder} 300w, ${sliceSidebarLayersPlaceholder} 700w`}
+                                placeholder={sliceSidebarLayersPlaceholder}
+                                alt="The layers sidebar design, now with user profiles."
+                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
+                            />
+                            <Image
+                                className="slice__sidebar-image"
+                                // srcSet={`${sliceSidebarAnnotations} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
+                                srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
+                                placeholder={sliceSidebarAnnotationsPlaceholder}
+                                alt="Multiple user annotations on a shared layer."
+                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
+                            />
+                        </div>
+                    </ProjectSectionColumns>
+                </ProjectSection>
+                <ProjectSection light>
+                    <ProjectSectionContent>
+                        <ProjectTextRow>
+                            <ProjectSectionHeading>Sherry Wang</ProjectSectionHeading>
+                            <ProjectSectionText>
+                                Sherry is a teaching assistant in NKCS, what is not
+                                average about her is her struggle in improving herself.
+                                She likes English but her college entrance exam score
+                                wasn’t good enough for her to major in English. However,
+                                she didn’t give up, in the university, she kept studying
+                                English and when she graduated, she worked as an English
+                                teacher in Web International English and WSE for 7 years.
+                                For the recent three years, she focused on public
+                                speaking. After taking part in the competition twice, she
+                                decided to organize her own public speaking workshop,
+                                which helps other to improve public speaking skills. She
+                                chose the continuous struggle instead of lying flat. She
+                                failed many times, but she always stands up. If you are
+                                like her, she will tell you how she deals with different
+                                choices and never give in to defeat.
+                            </ProjectSectionText>
+                        </ProjectTextRow>
+                        <Image
+                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            // placeholder={sliceSlidesPlaceholder}
+                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                        />
+                    </ProjectSectionContent>
+                </ProjectSection>
+                <ProjectSection>
+                    <ProjectSectionContent>
+                        <ProjectTextRow>
+                            <ProjectSectionHeading>Olivia Zhang</ProjectSectionHeading>
+                            <ProjectSectionText>
+                                “Dream, seek, achieve…” As the leader of the school’s
+                                poverty relief project, the 2021 full scholarship’s
+                                winner, and NSDA campus ambassador, this 15-year-old girl
+                                at Nanwai King’s College School always serves this as her
+                                greatest motto. Her team’s poverty relief story has now
+                                been written in China Daily, local newspaper, and known by
+                                more people through television. Her incredible enthusiasm
+                                in original oratory has helped her win the national
+                                champion in 2021’s TOC tournament following by tons of
+                                awards in NSDA. In her speech, Olivia’s going to talk
+                                about her poverty relief journey which brought a drastic
+                                change to her understanding of life and how her stereotype
+                                towards the poor gradually breaks down.
+                            </ProjectSectionText>
+                        </ProjectTextRow>
+                        {/* <Image
+                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            // placeholder={sliceSlidesPlaceholder}
+                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                        /> */}
+                    </ProjectSectionContent>
+                </ProjectSection>
+                <ProjectSection light>
+                    <ProjectSectionContent>
+                        <ProjectTextRow className="algin-left">
+                            <ProjectSectionHeading>Yujia Fu</ProjectSectionHeading>
+                            <ProjectSectionText>
+                                Currently working at UNESCO-ICUA as the head of education
+                                development and research team. Ms. Fu has received Master
+                                of Arts from Columbia University in the City of New York.
+                                While studying at Columbia University and the Graduate
+                                Institute of International and Development Studies in
+                                Geneva, she has developed her interest in global
+                                governance on international issues. She has been installed
+                                as Graduate Consultant and Education and Partnership
+                                Associate. Ms. Fu focuses on using educational approaches
+                                to engage young people contributing their talents to
+                                solving global challenges. Ms. Fu has gained sufficient
+                                research and analytical skills and practical skills which
+                                are needed for the educational development program during
+                                her extensive experiences working with educators and
+                                professionals at educational organizations. She is an
+                                outstanding leader who has a deep understanding of the
+                                cross-national education sector indeed.
+                            </ProjectSectionText>
+                        </ProjectTextRow>
+                        {/* <Image
+                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            // placeholder={sliceSlidesPlaceholder}
+                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                        /> */}
+                    </ProjectSectionContent>
+                </ProjectSection>
+                <ProjectSection>
+                    <ProjectSectionContent className="slice__grid">
+                        <div className="slice__grid-image">
+                            <div className="slice__grid-background">
+                                <Image
+                                    // className="wrapped-image"
+                                    // srcSet={`${sliceBackgroundBar} 400w, ${sliceBackgroundBarLarge} 898w`}
+                                    srcSet={`${sliceBackgroundBarPlaceholder} 400w, ${sliceBackgroundBarPlaceholder} 898w`}
+                                    placeholder={sliceBackgroundBarPlaceholder}
+                                    alt=""
+                                    role="presentation"
+                                    sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
+                                />
+                            </div>
+                            <div className="slice__grid-foreground">
+                                <Image
+                                    srcSet={`${sliceAnnotation} 440w, ${sliceAnnotationLarge} 880w`}
+                                    placeholder={sliceAnnotationPlaceholder}
+                                    alt="An annotation preview popover with statistics for shape perimeter and area."
+                                    sizes={`(max-width: ${media.mobile}px) 584px, (max-width: ${media.tablet}px) 747px, 556px`}
+                                />
+                            </div>
+                        </div>
+                        <div className="slice__grid-text">
+                            <ProjectSectionHeading>Simon Ye</ProjectSectionHeading>
+                            <ProjectSectionText
+                            // style={`(padding-left: ${media.mobile}px) 548px, (padding-left: ${media.tablet} 747px, 556px)`}
+                            // className="last-paragraph"
+                            >
+                                Currently working as an Admission Officer for Polaris
+                                Youth. Ms. Li has received the Bachelor of Engineering
+                                from Beijing Institute of Technology and the Master of
+                                Arts at Teachers College, Columbia. University on MA and
+                                Educational/Instructional technology. She has been
+                                installed as a digital marketing intern, instructor,
+                                research assistant, and volunteer teaching assistant at
+                                Microsoft. Ms. Li used to work in digital marketing and
+                                technology education. But she has a unique understanding
+                                and determination towards freedom. Since Ms. Li decided to
+                                pursue what she truly needs, she takes part in the Polaris
+                                Youth community, which aims to promote the young to enter
+                                the communities and participate in a variety of activities
+                                by focusing on themself and the world.
+                            </ProjectSectionText>
+                        </div>
+                    </ProjectSectionContent>
+                </ProjectSection>
             </ProjectContainer>
             <Footer />
         </Fragment>

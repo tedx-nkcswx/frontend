@@ -1,5 +1,5 @@
 .last-paragraph {
-    padding-left: 0
+    padding-left: 0;
 }
 
 .slice__columns {
@@ -17,6 +17,19 @@
             grid-template-columns: 1fr;
         }
     }
+}
+
+/* .align_left {
+    text-align: left;
+}
+
+.align_right {
+    text-align: right;
+} */
+
+.name {
+    color: black;
+    background-color: rgb(230, 43, 30);
 }
 
 .slice__grid-image {

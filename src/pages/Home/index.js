@@ -6,18 +6,18 @@ import Profile from 'pages/Home/Profile';
 import Footer from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
 import { useLocation } from 'react-router-dom';
-// import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-// import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
+import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
 // import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-// import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-// import gamestackTexture from 'assets/gamestack-login.jpg';
-// import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
-// import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-// import gamestackTexture2 from 'assets/gamestack-list.jpg';
-// import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
-// import sliceTexture from 'assets/slice-app.jpg';
+import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
+import gamestackTexture from 'assets/gamestack-login.jpg';
+import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
+import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
+import gamestackTexture2 from 'assets/gamestack-list.jpg';
+import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
+import sliceTexture from 'assets/slice-app.jpg';
 // import sliceTextureLarge from 'assets/slice-app-large.jpg';
-// import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
+import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import iphone11 from 'assets/iphone-11.glb';
 import macbookPro from 'assets/macbook-pro.glb';
 import './index.css';
@@ -170,9 +170,10 @@ const Home = () => {
                     alt: 'Smart Sparrow lesson builder',
                     textures: [
                         {
-                            // src: sprTexture,
+                            src: sprTexture,
                             // srcSet: `${sprTexture} 800w, ${sprTextureLarge} 1440w`,
-                            // placeholder: sprTexturePlaceholder,
+                            srcSet: `${sprTexture} 800w`,
+                            placeholder: sprTexturePlaceholder,
                         },
                     ],
                 }}
@@ -193,14 +194,14 @@ const Home = () => {
                     alt: 'App login screen',
                     textures: [
                         {
-                            // src: gamestackTexture,
-                            // srcSet: `${gamestackTexture} 254w, ${gamestackTextureLarge} 508w`,
-                            // placeholder: gamestackTexturePlaceholder,
+                            src: gamestackTexture,
+                            srcSet: `${gamestackTexture} 254w, ${gamestackTextureLarge} 508w`,
+                            placeholder: gamestackTexturePlaceholder,
                         },
                         {
-                            // src: gamestackTexture2,
-                            // srcSet: `${gamestackTexture2} 254w, ${gamestackTexture2Large} 508w`,
-                            // placeholder: gamestackTexture2Placeholder,
+                            src: gamestackTexture2,
+                            srcSet: `${gamestackTexture2} 254w, ${gamestackTexture2Large} 508w`,
+                            placeholder: gamestackTexture2Placeholder,
                         },
                     ],
                 }}
@@ -220,9 +221,9 @@ const Home = () => {
                     alt: 'Annotating a biomedical image in the Slice app',
                     textures: [
                         {
-                            // src: sliceTexture,
-                            // srcSet: `${sliceTexture} 980w, ${sliceTextureLarge} 1376w`,
-                            // placeholder: sliceTexturePlaceholder,
+                            src: sliceTexture,
+                            srcSet: `${sliceTexture} 980w`,
+                            placeholder: sliceTexturePlaceholder,
                         },
                     ],
                 }}
