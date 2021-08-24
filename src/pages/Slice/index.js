@@ -18,24 +18,26 @@ import {
 import sliceBackground from 'assets/slice-background.jpg';
 import sliceBackgroundLarge from 'assets/slice-background-large.jpg';
 import sliceBackgroundPlaceholder from 'assets/slice-background-placeholder.jpg';
-import sliceApp from 'assets/slice-app.jpg';
-import sliceAppLarge from 'assets/slice-app-large.jpg';
+// import sliceApp from 'assets/slice-app.jpg';
+// import sliceAppLarge from 'assets/slice-app-large.jpg';
 import sliceAppPlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceSidebarLayers from 'assets/slice-sidebar-layers.png';
-import sliceSidebarLayersLarge from 'assets/slice-sidebar-layers-large.png';
+// import sliceSidebarLayers from 'assets/slice-sidebar-layers.png';
+// import sliceSidebarLayersLarge from 'assets/slice-sidebar-layers-large.png';
 import sliceSidebarLayersPlaceholder from 'assets/slice-sidebar-layers-placeholder.png';
-import sliceSidebarAnnotations from 'assets/slice-sidebar-annotations.png';
+// import sliceSidebarAnnotations from 'assets/slice-sidebar-annotations.png';
 import sliceSidebarAnnotationsLarge from 'assets/slice-sidebar-annotations-large.jpg';
 import sliceSidebarAnnotationsPlaceholder from 'assets/slice-sidebar-annotations-placeholder.png';
-import sliceSlides from 'assets/slice-slides.jpg';
-import sliceSlidesLarge from 'assets/slice-slides-large.jpg';
+// import sliceSlides from 'assets/slice-slides.jpg';
+// import sliceSlidesLarge from 'assets/slice-slides-large.jpg';
 import sliceSlidesPlaceholder from 'assets/slice-slides-placeholder.jpg';
-import sliceBackgroundBar from 'assets/slice-background-bar.jpg';
-import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
+// import sliceBackgroundBar from 'assets/slice-background-bar.jpg';
+// import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
 import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
 import sliceAnnotation from 'assets/slice-annotation.png';
 import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
 import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
+import sliceMic from 'assets/slice-mic.jpg';
+import sliceMicLarge from 'assets/slice-mic-large.jpg';
 import prerender from 'utils/prerender';
 import { media } from 'utils/style';
 import './index.css';
@@ -70,7 +72,7 @@ const ProjectSlice = () => {
                 <ProjectSection first>
                     <ProjectSectionContent>
                         <ProjectImage
-                            srcSet={`${sliceApp} 800w, ${sliceAppLarge} 1920w`}
+                            srcSet={`${sliceMic} 800w, ${sliceMicLarge} 1920w`}
                             placeholder={sliceAppPlaceholder}
                             alt="invited members"
                             sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 90vw, 80vw`}
@@ -114,6 +116,24 @@ const ProjectSlice = () => {
                 </ProjectSection> */}
                 <ProjectSection>
                     <ProjectSectionColumns centered className="slice__columns">
+                        <div className="slice__sidebar-images">
+                            <Image
+                                className="slice__sidebar-image"
+                                // srcSet={`${sliceSidebarLayers} 300w, ${sliceSidebarLayersLarge} 700w`}
+                                srcSet={`${sliceSidebarLayersPlaceholder} 300w, ${sliceSidebarLayersPlaceholder} 700w`}
+                                placeholder={sliceSidebarLayersPlaceholder}
+                                alt="The layers sidebar design, now with user profiles."
+                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
+                            />
+                            <Image
+                                className="slice__sidebar-image"
+                                // srcSet={`${sliceSidebarAnnotations} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
+                                srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
+                                placeholder={sliceSidebarAnnotationsPlaceholder}
+                                alt="Multiple user annotations on a shared layer."
+                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
+                            />
+                        </div>
                         <div className="sidebar__images-text">
                             <ProjectSectionHeading>Piye Yuan</ProjectSectionHeading>
                             <ProjectSectionText>
@@ -141,24 +161,6 @@ const ProjectSlice = () => {
                                 and arts together, not only accomplish himself as an
                                 individual but also promote others’ developments.
                             </ProjectSectionText>
-                        </div>
-                        <div className="slice__sidebar-images">
-                            <Image
-                                className="slice__sidebar-image"
-                                // srcSet={`${sliceSidebarLayers} 300w, ${sliceSidebarLayersLarge} 700w`}
-                                srcSet={`${sliceSidebarLayersPlaceholder} 300w, ${sliceSidebarLayersPlaceholder} 700w`}
-                                placeholder={sliceSidebarLayersPlaceholder}
-                                alt="The layers sidebar design, now with user profiles."
-                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
-                            />
-                            <Image
-                                className="slice__sidebar-image"
-                                // srcSet={`${sliceSidebarAnnotations} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
-                                srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
-                                placeholder={sliceSidebarAnnotationsPlaceholder}
-                                alt="Multiple user annotations on a shared layer."
-                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
-                            />
                         </div>
                     </ProjectSectionColumns>
                 </ProjectSection>
@@ -191,7 +193,8 @@ const ProjectSlice = () => {
                             srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
                             alt="The new My Slides tab in slice, showing annotated and favorited slides."
-                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                            className="image_sizing"
+                            // sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
                         />
                     </ProjectSectionContent>
                 </ProjectSection>
@@ -315,6 +318,24 @@ const ProjectSlice = () => {
                 </ProjectSection>
                 <ProjectSection>
                     <ProjectSectionColumns centered className="slice__columns">
+                        <div className="slice__sidebar-images">
+                            <Image
+                                className="slice__sidebar-image"
+                                // srcSet={`${sliceSidebarLayers} 300w, ${sliceSidebarLayersLarge} 700w`}
+                                srcSet={`${sliceSidebarLayersPlaceholder} 300w, ${sliceSidebarLayersPlaceholder} 700w`}
+                                placeholder={sliceSidebarLayersPlaceholder}
+                                alt="The layers sidebar design, now with user profiles."
+                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
+                            />
+                            <Image
+                                className="slice__sidebar-image"
+                                // srcSet={`${sliceSidebarAnnotations} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
+                                srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
+                                placeholder={sliceSidebarAnnotationsPlaceholder}
+                                alt="Multiple user annotations on a shared layer."
+                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
+                            />
+                        </div>
                         <div className="sidebar__images-text">
                             <ProjectSectionHeading>Fiona You</ProjectSectionHeading>
                             <ProjectSectionText>
@@ -339,24 +360,6 @@ const ProjectSlice = () => {
                                 and participated in various industry conferences at home
                                 and abroad.
                             </ProjectSectionText>
-                        </div>
-                        <div className="slice__sidebar-images">
-                            <Image
-                                className="slice__sidebar-image"
-                                // srcSet={`${sliceSidebarLayers} 300w, ${sliceSidebarLayersLarge} 700w`}
-                                srcSet={`${sliceSidebarLayersPlaceholder} 300w, ${sliceSidebarLayersPlaceholder} 700w`}
-                                placeholder={sliceSidebarLayersPlaceholder}
-                                alt="The layers sidebar design, now with user profiles."
-                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
-                            />
-                            <Image
-                                className="slice__sidebar-image"
-                                // srcSet={`${sliceSidebarAnnotations} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
-                                srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
-                                placeholder={sliceSidebarAnnotationsPlaceholder}
-                                alt="Multiple user annotations on a shared layer."
-                                sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
-                            />
                         </div>
                     </ProjectSectionColumns>
                 </ProjectSection>
