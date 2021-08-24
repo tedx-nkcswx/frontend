@@ -183,11 +183,11 @@ const Home = () => {
                 sectionRef={projectTwo}
                 visible={visibleSections.includes(projectTwo.current)}
                 index={2}
-                title="Sustainable Development"
-                description="How we are to achieve sustainable development in this TEDx programme"
+                title="About our Speakers"
+                description="We have invited many speakers. Click View More to see details."
                 buttonText="View More"
-                // buttonLink="https://gamestackapp.com"
-                buttonLink="#"
+                buttonLink="/projects/slice"
+                // buttonLink="#"
                 model={{
                     type: 'phone',
                     alt: 'App login screen',
