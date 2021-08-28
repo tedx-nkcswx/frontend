@@ -163,8 +163,8 @@ const Home = () => {
                 title="The What"
                 description="What we aim to cover in our TEDx programme"
                 buttonText="View More"
-                // buttonLink="/projects/smart-sparrow"
-                buttonLink="#"
+                buttonLink="/projects/smart-sparrow"
+                // buttonLink="#"
                 model={{
                     type: 'laptop',
                     alt: 'Smart Sparrow lesson builder',
@@ -215,7 +215,7 @@ const Home = () => {
                 description="Buy a ticket to join our programme"
                 buttonText="Buy Ticket"
                 // buttonLink="/projects/slice"
-                buttonLink="#"
+                buttonLink="https://knowscount-1304485449.cos.ap-shanghai.myqcloud.com/img/9)3SEFVGSDIP%5DW1J9~A4%248L.jpg"
                 model={{
                     type: 'laptop',
                     alt: 'Annotating a biomedical image in the Slice app',
