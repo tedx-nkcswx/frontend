@@ -187,6 +187,7 @@ export const ProjectSectionHeadingLily = ({
         as={as}
         level={level}
         align="right"
+        // style="margin-left: 450px"
         {...rest}
     />
 );

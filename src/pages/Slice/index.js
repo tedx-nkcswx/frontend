@@ -198,7 +198,7 @@ const ProjectSlice = () => {
                             srcSet={`${vivian} 800w, ${vivian} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
                             alt="The new My Slides tab in slice, showing annotated and favorited slides."
-                            className="image_sizing"
+                            className="image_sizing vivian"
                             // sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
                         />
                     </ProjectSectionContent>
@@ -211,6 +211,7 @@ const ProjectSlice = () => {
                                     // className="wrapped-image"
                                     // srcSet={`${sliceBackgroundBar} 400w, ${sliceBackgroundBarLarge} 898w`}
                                     srcSet={`${rain} 400w, ${rain} 898w`}
+                                    className="rain"
                                     placeholder={sliceBackgroundBarPlaceholder}
                                     alt=""
                                     role="presentation"
@@ -278,14 +279,26 @@ const ProjectSlice = () => {
                         <Image
                             srcSet={`${simon} 800w, ${simon} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
+                            className="image_sizing simon"
                             alt="The new My Slides tab in slice, showing annotated and favorited slides."
                             sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
                         />
                     </ProjectSectionContent>
                 </ProjectSection>
                 <ProjectSection>
-                    <ProjectSectionContent>
-                        <ProjectTextRow>
+                    <ProjectSectionContent className="slice__grid">
+                        <div className="slice__grid-image">
+                            <div className="slice__grid-background">
+                                <Image
+                                    srcSet={`${lily} 800w, ${lily} 1440w`}
+                                    // placeholder={sliceSlidesPlaceholder}
+                                    alt="lily"
+                                    className="lily"
+                                    sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                                />
+                            </div>
+                        </div>
+                        <div className="slice__grid-text">
                             <ProjectSectionHeadingLily>Lily Yu</ProjectSectionHeadingLily>
                             <ProjectSectionText>
                                 Lily, an IB student in grade 11 in NKCS. When she was a
@@ -308,14 +321,7 @@ const ProjectSlice = () => {
                                 inspirations and thoughts to students through sharing her
                                 own experience.
                             </ProjectSectionText>
-                        </ProjectTextRow>
-                        <Image
-                            srcSet={`${lily} 800w, ${lily} 1440w`}
-                            // placeholder={sliceSlidesPlaceholder}
-                            alt="lily"
-                            className="lily"
-                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
-                        />
+                        </div>
                     </ProjectSectionContent>
                 </ProjectSection>
                 <ProjectSection>
@@ -399,6 +405,7 @@ const ProjectSlice = () => {
                             srcSet={`${piye} 800w, ${piye} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
                             alt="piye"
+                            className="piye"
                             sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
                         />
                     </ProjectSectionContent>
@@ -474,6 +481,7 @@ const ProjectSlice = () => {
                                     // srcSet={`${sliceBackgroundBar} 400w, ${sliceBackgroundBarLarge} 898w`}
                                     srcSet={`${leona} 400w, ${leona} 898w`}
                                     placeholder={leona}
+                                    className="leona"
                                     alt=""
                                     role="presentation"
                                     sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
