@@ -79,7 +79,7 @@ const ProjectSlice = () => {
                 <ProjectHeader
                     title={title}
                     description={description}
-                    url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+                    url="https://knowscount-1304485449.cos.ap-shanghai.myqcloud.com/img/9)3SEFVGSDIP%5DW1J9~A4%248L.jpg"
                     roles={roles}
                 />
                 <ProjectSection first>
