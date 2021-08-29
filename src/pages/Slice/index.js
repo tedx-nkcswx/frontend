@@ -14,6 +14,7 @@ import {
     ProjectBackground,
     ProjectHeader,
     ProjectSectionColumns,
+    ProjectSectionHeadingLily,
 } from 'components/ProjectLayout';
 import sliceBackground from 'assets/slice-background.jpg';
 import sliceBackgroundLarge from 'assets/slice-background-large.jpg';
@@ -33,13 +34,25 @@ import sliceSlidesPlaceholder from 'assets/slice-slides-placeholder.jpg';
 // import sliceBackgroundBar from 'assets/slice-background-bar.jpg';
 // import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
 import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
-import sliceAnnotation from 'assets/slice-annotation.png';
-import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
-import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
+// import sliceAnnotation from 'assets/slice-annotation.png';
+// import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
+// import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
 import sliceMic from 'assets/slice-mic.jpg';
 import sliceMicLarge from 'assets/slice-mic-large.jpg';
 import prerender from 'utils/prerender';
 import { media } from 'utils/style';
+// speakers images - wide
+import vivian from 'assets/men/wide-vivian-0.png';
+import piye from 'assets/men/wide-piye-1.png';
+import simon from 'assets/men/wide-simon-2.png';
+import yujia from 'assets/men/wide-yujia-3.png';
+// speakers images - narrow
+import rain from 'assets/men/narrow-rain-0.png';
+import grit from 'assets/men/grit.png';
+import sherry from 'assets/men/narrow-sherry-1.png';
+import lily from 'assets/men/narrow-lily-2.png';
+import leona from 'assets/men/narrow-leona-3.png';
+import olivia from 'assets/men/square-olivia-0.png';
 import './index.css';
 
 const title = 'About our Speakers';
@@ -120,46 +133,38 @@ const ProjectSlice = () => {
                             <Image
                                 className="slice__sidebar-image"
                                 // srcSet={`${sliceSidebarLayers} 300w, ${sliceSidebarLayersLarge} 700w`}
-                                srcSet={`${sliceSidebarLayersPlaceholder} 300w, ${sliceSidebarLayersPlaceholder} 700w`}
-                                placeholder={sliceSidebarLayersPlaceholder}
+                                srcSet={`${sherry} 300w, ${sherry} 700w`}
+                                placeholder={sherry}
                                 alt="The layers sidebar design, now with user profiles."
                                 sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
                             />
                             <Image
                                 className="slice__sidebar-image"
                                 // srcSet={`${sliceSidebarAnnotations} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
-                                srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
-                                placeholder={sliceSidebarAnnotationsPlaceholder}
+                                srcSet={`${sherry} 300w, ${sherry} 700w`}
+                                placeholder={sherry}
                                 alt="Multiple user annotations on a shared layer."
                                 sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
                             />
                         </div>
                         <div className="sidebar__images-text">
-                            <ProjectSectionHeading>Piye Yuan</ProjectSectionHeading>
+                            <ProjectSectionHeading>Sherry Wang</ProjectSectionHeading>
                             <ProjectSectionText>
-                                Yuan is an interesting person, to describe him, it’s
-                                better to use his own words.
-                            </ProjectSectionText>
-                            <ProjectSectionText>
-                                “Now, I am, a ‘freelancer’, a ‘English Teacher’, a ‘mobile
-                                bookstore owner’, a ‘podcaster’, a ‘backpacker’, a person
-                                who likes ‘sports, arts, literature and philosophy’, a
-                                ‘maker’, a person who wants to ‘put the above taxes all in
-                                a device and combine them organically’. Yuan worked in the
-                                Moonshot Academy which was a project-based learning
-                                organization. He has been held valuable projects with his
-                                students, from Xizang (zero outlet program) to Malaysia
-                                (students integration). Personally to him, he likes
-                                journey, which he completed a wonderful cycling journey on
-                                route 318 in Chuanzang.
-                            </ProjectSectionText>
-                            <ProjectSectionText>
-                                Yuan is also a English teacher through his WeChat Public
-                                Domain, developed “Words Origin Talk” through “Goral” app.
-                                He owns his mobile bookstore “Riddle”, also through his
-                                public domain in WeChat. Yuan puts all these literature
-                                and arts together, not only accomplish himself as an
-                                individual but also promote others’ developments.
+                                Sherry is a teaching assistant in NKCS, what is not
+                                average about her is her struggle in improving herself.
+                                She likes English but her college entrance exam score
+                                wasn’t good enough for her to major in English. However,
+                                she didn’t give up, in the university, she kept studying
+                                English and when she graduated, she worked as an English
+                                teacher in Web International English and WSE for 7 years.
+                                For the recent three years, she focused on public
+                                speaking. After taking part in the competition twice, she
+                                decided to organize her own public speaking workshop,
+                                which helps other to improve public speaking skills. She
+                                chose the continuous struggle instead of lying flat. She
+                                failed many times, but she always stands up. If you are
+                                like her, she will tell you how she deals with different
+                                choices and never give in to defeat.
                             </ProjectSectionText>
                         </div>
                     </ProjectSectionColumns>
@@ -190,7 +195,7 @@ const ProjectSlice = () => {
                             </ProjectSectionText>
                         </ProjectTextRow>
                         <Image
-                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            srcSet={`${vivian} 800w, ${vivian} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
                             alt="The new My Slides tab in slice, showing annotated and favorited slides."
                             className="image_sizing"
@@ -205,23 +210,38 @@ const ProjectSlice = () => {
                                 <Image
                                     // className="wrapped-image"
                                     // srcSet={`${sliceBackgroundBar} 400w, ${sliceBackgroundBarLarge} 898w`}
-                                    srcSet={`${sliceBackgroundBarPlaceholder} 400w, ${sliceBackgroundBarPlaceholder} 898w`}
+                                    srcSet={`${rain} 400w, ${rain} 898w`}
                                     placeholder={sliceBackgroundBarPlaceholder}
                                     alt=""
                                     role="presentation"
                                     sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
                                 />
                             </div>
+                        </div>
+                        <div className="slice__grid-text">
+                            <ProjectSectionHeading>Rain Shen</ProjectSectionHeading>
+                            <ProjectSectionText>
+                                Rain is a grade 10 student from Nanwai King's College
+                                School. He is passionate to share the experience he had
+                                about learning new language, and how is the factor “Grit”
+                                helped him in language learning and further studies. He
+                                wants to convey that “Grit” can be an imperative motivator
+                                in terms of studies, but also a great passion about life.
+                            </ProjectSectionText>
                             <div className="slice__grid-foreground">
                                 <Image
-                                    srcSet={`${sliceAnnotation} 440w, ${sliceAnnotationLarge} 880w`}
-                                    placeholder={sliceAnnotationPlaceholder}
+                                    srcSet={`${grit} 440w, ${grit} 880w`}
+                                    placeholder={grit}
                                     alt="An annotation preview popover with statistics for shape perimeter and area."
                                     sizes={`(max-width: ${media.mobile}px) 584px, (max-width: ${media.tablet}px) 747px, 556px`}
                                 />
                             </div>
                         </div>
-                        <div className="slice__grid-text">
+                    </ProjectSectionContent>
+                </ProjectSection>
+                <ProjectSection light>
+                    <ProjectSectionContent>
+                        <ProjectTextRow className="algin-left">
                             <ProjectSectionHeading>Simon Ye</ProjectSectionHeading>
                             <ProjectSectionText>
                                 Simon Ye, Doctor of the Friedman School of nutrition,
@@ -237,8 +257,8 @@ const ProjectSlice = () => {
                                 into nutrition, as well as general and intervention.
                             </ProjectSectionText>
                             <ProjectSectionText
-                                // style={`(padding-left: ${media.mobile}px) 548px, (padding-left: ${media.tablet} 747px, 556px)`}
-                                className="last-paragraph"
+                            // style={`(padding-left: ${media.mobile}px) 548px, (padding-left: ${media.tablet} 747px, 556px)`}
+                            // className="last-paragraph"
                             >
                                 His unique understanding of food and innovative cooking
                                 have made him stand out among many competitors and won the
@@ -254,24 +274,9 @@ const ProjectSlice = () => {
                                 field of nutrition, so that people from different
                                 backgrounds can learn and grow.
                             </ProjectSectionText>
-                        </div>
-                    </ProjectSectionContent>
-                </ProjectSection>
-                <ProjectSection light>
-                    <ProjectSectionContent>
-                        <ProjectTextRow className="algin-left">
-                            <ProjectSectionHeading>Rain Shen</ProjectSectionHeading>
-                            <ProjectSectionText>
-                                Rain is a grade 10 student from Nanwai King's College
-                                School. He is passionate to share the experience he had
-                                about learning new language, and how is the factor “Grit”
-                                helped him in language learning and further studies. He
-                                wants to convey that “Grit” can be an imperative motivator
-                                in terms of studies, but also a great passion about life.
-                            </ProjectSectionText>
                         </ProjectTextRow>
                         <Image
-                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            srcSet={`${simon} 800w, ${simon} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
                             alt="The new My Slides tab in slice, showing annotated and favorited slides."
                             sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
@@ -281,11 +286,7 @@ const ProjectSlice = () => {
                 <ProjectSection>
                     <ProjectSectionContent>
                         <ProjectTextRow>
-                            <ProjectSectionHeading>
-                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lily Yu
-                            </ProjectSectionHeading>
+                            <ProjectSectionHeadingLily>Lily Yu</ProjectSectionHeadingLily>
                             <ProjectSectionText>
                                 Lily, an IB student in grade 11 in NKCS. When she was a
                                 14-year-old girl, she went to international boarding
@@ -308,12 +309,13 @@ const ProjectSlice = () => {
                                 own experience.
                             </ProjectSectionText>
                         </ProjectTextRow>
-                        {/* <Image
-                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                        <Image
+                            srcSet={`${lily} 800w, ${lily} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
-                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            alt="lily"
+                            className="lily"
                             sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
-                        /> */}
+                        />
                     </ProjectSectionContent>
                 </ProjectSection>
                 <ProjectSection>
@@ -366,29 +368,37 @@ const ProjectSlice = () => {
                 <ProjectSection light>
                     <ProjectSectionContent>
                         <ProjectTextRow>
-                            <ProjectSectionHeading>Sherry Wang</ProjectSectionHeading>
+                            <ProjectSectionHeading>Piye Yuan</ProjectSectionHeading>
                             <ProjectSectionText>
-                                Sherry is a teaching assistant in NKCS, what is not
-                                average about her is her struggle in improving herself.
-                                She likes English but her college entrance exam score
-                                wasn’t good enough for her to major in English. However,
-                                she didn’t give up, in the university, she kept studying
-                                English and when she graduated, she worked as an English
-                                teacher in Web International English and WSE for 7 years.
-                                For the recent three years, she focused on public
-                                speaking. After taking part in the competition twice, she
-                                decided to organize her own public speaking workshop,
-                                which helps other to improve public speaking skills. She
-                                chose the continuous struggle instead of lying flat. She
-                                failed many times, but she always stands up. If you are
-                                like her, she will tell you how she deals with different
-                                choices and never give in to defeat.
+                                Yuan is an interesting person, to describe him, it’s
+                                better to use his own words.
+                            </ProjectSectionText>
+                            <ProjectSectionText>
+                                “Now, I am, a ‘freelancer’, a ‘English Teacher’, a ‘mobile
+                                bookstore owner’, a ‘podcaster’, a ‘backpacker’, a person
+                                who likes ‘sports, arts, literature and philosophy’, a
+                                ‘maker’, a person who wants to ‘put the above taxes all in
+                                a device and combine them organically’. Yuan worked in the
+                                Moonshot Academy which was a project-based learning
+                                organization. He has been held valuable projects with his
+                                students, from Xizang (zero outlet program) to Malaysia
+                                (students integration). Personally to him, he likes
+                                journey, which he completed a wonderful cycling journey on
+                                route 318 in Chuanzang.
+                            </ProjectSectionText>
+                            <ProjectSectionText>
+                                Yuan is also a English teacher through his WeChat Public
+                                Domain, developed “Words Origin Talk” through “Goral” app.
+                                He owns his mobile bookstore “Riddle”, also through his
+                                public domain in WeChat. Yuan puts all these literature
+                                and arts together, not only accomplish himself as an
+                                individual but also promote others’ developments.
                             </ProjectSectionText>
                         </ProjectTextRow>
                         <Image
-                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                            srcSet={`${piye} 800w, ${piye} 1440w`}
                             // placeholder={sliceSlidesPlaceholder}
-                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            alt="piye"
                             sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
                         />
                     </ProjectSectionContent>
@@ -397,7 +407,14 @@ const ProjectSlice = () => {
                     <ProjectSectionContent>
                         <ProjectTextRow>
                             <ProjectSectionHeading>Olivia Zhang</ProjectSectionHeading>
-                            <ProjectSectionText>
+                            <Image
+                                srcSet={`${olivia} 800w, ${olivia} 1440w`}
+                                // placeholder={sliceSlidesPlaceholder}
+                                className="olivia"
+                                alt="olivia"
+                                sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+                            />
+                            <ProjectSectionText className="down-a-bit">
                                 “Dream, seek, achieve…” As the leader of the school’s
                                 poverty relief project, the 2021 full scholarship’s
                                 winner, and NSDA campus ambassador, this 15-year-old girl
@@ -413,12 +430,6 @@ const ProjectSlice = () => {
                                 towards the poor gradually breaks down.
                             </ProjectSectionText>
                         </ProjectTextRow>
-                        {/* <Image
-                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
-                            // placeholder={sliceSlidesPlaceholder}
-                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
-                            sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
-                        /> */}
                     </ProjectSectionContent>
                 </ProjectSection>
                 <ProjectSection light>
@@ -445,12 +456,13 @@ const ProjectSlice = () => {
                                 cross-national education sector indeed.
                             </ProjectSectionText>
                         </ProjectTextRow>
-                        {/* <Image
-                            srcSet={`${sliceSlidesPlaceholder} 800w, ${sliceSlidesPlaceholder} 1440w`}
+                        <Image
+                            srcSet={`${yujia} 800w, ${yujia} 1440w`}
+                            className="yujia"
                             // placeholder={sliceSlidesPlaceholder}
-                            alt="The new My Slides tab in slice, showing annotated and favorited slides."
+                            alt="yujia"
                             sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
-                        /> */}
+                        />
                     </ProjectSectionContent>
                 </ProjectSection>
                 <ProjectSection>
@@ -460,19 +472,11 @@ const ProjectSlice = () => {
                                 <Image
                                     // className="wrapped-image"
                                     // srcSet={`${sliceBackgroundBar} 400w, ${sliceBackgroundBarLarge} 898w`}
-                                    srcSet={`${sliceBackgroundBarPlaceholder} 400w, ${sliceBackgroundBarPlaceholder} 898w`}
-                                    placeholder={sliceBackgroundBarPlaceholder}
+                                    srcSet={`${leona} 400w, ${leona} 898w`}
+                                    placeholder={leona}
                                     alt=""
                                     role="presentation"
                                     sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
-                                />
-                            </div>
-                            <div className="slice__grid-foreground">
-                                <Image
-                                    srcSet={`${sliceAnnotation} 440w, ${sliceAnnotationLarge} 880w`}
-                                    placeholder={sliceAnnotationPlaceholder}
-                                    alt="An annotation preview popover with statistics for shape perimeter and area."
-                                    sizes={`(max-width: ${media.mobile}px) 584px, (max-width: ${media.tablet}px) 747px, 556px`}
                                 />
                             </div>
                         </div>
