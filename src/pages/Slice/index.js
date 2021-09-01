@@ -30,7 +30,7 @@ import sliceSidebarAnnotationsLarge from 'assets/slice-sidebar-annotations-large
 import sliceSidebarAnnotationsPlaceholder from 'assets/slice-sidebar-annotations-placeholder.png';
 // import sliceSlides from 'assets/slice-slides.jpg';
 // import sliceSlidesLarge from 'assets/slice-slides-large.jpg';
-import sliceSlidesPlaceholder from 'assets/slice-slides-placeholder.jpg';
+// import sliceSlidesPlaceholder from 'assets/slice-slides-placeholder.jpg';
 // import sliceBackgroundBar from 'assets/slice-background-bar.jpg';
 // import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
 import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
@@ -52,6 +52,8 @@ import grit from 'assets/men/grit.png';
 import sherry from 'assets/men/narrow-sherry-1.png';
 import lily from 'assets/men/narrow-lily-2.png';
 import leona from 'assets/men/narrow-leona-3.png';
+import fiona from 'assets/men/narrow-fiona-4.jpg';
+import shahid from 'assets/men/narrow-shahid-5.jpg';
 import olivia from 'assets/men/square-olivia-0.png';
 import './index.css';
 
@@ -174,24 +176,12 @@ const ProjectSlice = () => {
                         <ProjectTextRow>
                             <ProjectSectionHeading>Vivian Zhao</ProjectSectionHeading>
                             <ProjectSectionText>
-                                Vivian is a current female regional manager in East Asia
-                                and Oceania at Minerva Schools of KGI. Vivian graduated
-                                from Boston University from the international relations
-                                and Affairs department. She completed her master degree at
-                                Columbia university in the city of New York from master of
-                                eduction and international eduction. Vivian was introduced
-                                as guest speaker for academic festival in Teachers
-                                College, Columbia University as soon as she graduated.
-                            </ProjectSectionText>
-                            <ProjectSectionText>
-                                She started her life devoting into education, and worked
-                                as project manager at seed for innovation, and coordinator
-                                at Asia Society respectively. As her goal, she seek to
-                                activate the global eduction to work together, and became
-                                the founder of Future Columbia China Education. Her
-                                passion with international education lead her way through
-                                not as a traditional female “IT worker”, but meeting her
-                                goal in another fields that she love, education.
+                                Vivian is a current regional manager in East Asia and
+                                Oceania at Minerva Schools of KGI. She was introduced as
+                                guest speaker for academic festival in Columbia University
+                                as soon as she graduated. Her goal is to promote global
+                                cooperation in education and let more people know the true
+                                meaning of international education.
                             </ProjectSectionText>
                         </ProjectTextRow>
                         <Image
@@ -245,17 +235,18 @@ const ProjectSlice = () => {
                         <ProjectTextRow className="algin-left">
                             <ProjectSectionHeading>Simon Ye</ProjectSectionHeading>
                             <ProjectSectionText>
-                                Simon Ye, Doctor of the Friedman School of nutrition,
-                                Tufts University, USA, who was engaged in the research on
-                                the effects of dietary quality on cardiovascular and
-                                intestinal diseases during his university. He always views
-                                health problems within different perspectives, from
-                                nutrition, cooking and entrepreneurs, in order to improve
-                                people's quality of life and health level. He has been
-                                very interested in the principle and interaction of food
-                                since he was a child, he has learned how to cook by
-                                himself, and integrated the science and art of cooking
-                                into nutrition, as well as general and intervention.
+                                By integrating lenses of molecular nutrition, culinary
+                                arts, and social entrepreneurship, Simon brings unique
+                                insight to improve human health and quality of life. As a
+                                self-trained chef, his passion and innovative cooking
+                                demos won him an offer from Mugaritz, a 2-Michellin
+                                starred restaurant in Spain. He is now serving as the
+                                Regional Scientific Marketing Lead at IFF Health (Greater
+                                Asia) and the Chair of membership and service at
+                                International Chinese Nutrition Young Scholar Network.
+                                Simon is committed to deliver supportive and
+                                non-judgmental culture to the nutrition community, where
+                                everyone with various background could freely grow.
                             </ProjectSectionText>
                             <ProjectSectionText
                             // style={`(padding-left: ${media.mobile}px) 548px, (padding-left: ${media.tablet} 747px, 556px)`}
@@ -330,15 +321,15 @@ const ProjectSlice = () => {
                             <Image
                                 className="slice__sidebar-image"
                                 // srcSet={`${sliceSidebarLayers} 300w, ${sliceSidebarLayersLarge} 700w`}
-                                srcSet={`${sliceSidebarLayersPlaceholder} 300w, ${sliceSidebarLayersPlaceholder} 700w`}
+                                srcSet={`${fiona} 300w, ${fiona} 700w`}
                                 placeholder={sliceSidebarLayersPlaceholder}
                                 alt="The layers sidebar design, now with user profiles."
                                 sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
                             />
                             <Image
                                 className="slice__sidebar-image"
-                                // srcSet={`${sliceSidebarAnnotations} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
-                                srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
+                                srcSet={`${fiona} 300w, ${fiona} 700w`}
+                                // srcSet={`${sliceSidebarAnnotationsPlaceholder} 300w, ${sliceSidebarAnnotationsLarge} 700w`}
                                 placeholder={sliceSidebarAnnotationsPlaceholder}
                                 alt="Multiple user annotations on a shared layer."
                                 sizes={`(max-width: ${media.mobile}px) 200px, 343px`}
@@ -348,7 +339,7 @@ const ProjectSlice = () => {
                             <ProjectSectionHeading>Fiona You</ProjectSectionHeading>
                             <ProjectSectionText>
                                 Fiona You graduated from the University of Birmingham in
-                                the United Kingdom in 2003 with a masters degree in
+                                the United Kingdom in 2003 with a master degree in
                                 education. After working in the UK for four years, she
                                 returned to her hometown of Wuxi to work as a lecturer at
                                 the School of Foreign Students at Jiangnan University. A
@@ -356,17 +347,13 @@ const ProjectSlice = () => {
                                 responsible for the international curriculum centre at
                                 Wuxi No. 1 Middle School in 2008. Currently, Fiona is
                                 responsible for finance and administration at Nanwai
-                                King’s College School Wuxi.
-                            </ProjectSectionText>
-                            <ProjectSectionText>
-                                She also is responsible for Nanwai King’s College School
-                                Wuxi and Yinghe Bilingual School. Fiona is also a
-                                qualified college counseling teacher, accredited by the
-                                University of California, Los Angeles, supporting many
-                                students through course choices and college applications.
-                                She has visited many universities in different countries
-                                and participated in various industry conferences at home
-                                and abroad.
+                                King’s College School Wuxi. Fiona is also a qualified
+                                college counseling teacher, accredited by the University
+                                of California, Los Angeles, supporting many students
+                                through course choices and college applications. She has
+                                visited many universities in different countries and
+                                participated in various industry conferences at home and
+                                abroad.
                             </ProjectSectionText>
                         </div>
                     </ProjectSectionColumns>
@@ -376,29 +363,28 @@ const ProjectSlice = () => {
                         <ProjectTextRow>
                             <ProjectSectionHeading>Piye Yuan</ProjectSectionHeading>
                             <ProjectSectionText>
-                                Yuan is an interesting person, to describe him, it’s
-                                better to use his own words.
+                                Yuan is an interesting guy with long hair. To describe
+                                him, his words are better than mine.
                             </ProjectSectionText>
                             <ProjectSectionText>
-                                “Now, I am, a ‘freelancer’, a ‘English Teacher’, a ‘mobile
-                                bookstore owner’, a ‘podcaster’, a ‘backpacker’, a person
-                                who likes ‘sports, arts, literature and philosophy’, a
-                                ‘maker’, a person who wants to ‘put the above taxes all in
-                                a device and combine them organically’. Yuan worked in the
-                                Moonshot Academy which was a project-based learning
-                                organization. He has been held valuable projects with his
-                                students, from Xizang (zero outlet program) to Malaysia
-                                (students integration). Personally to him, he likes
-                                journey, which he completed a wonderful cycling journey on
-                                route 318 in Chuanzang.
+                                "Now, I'm a freelancer, an English teacher, an owner of a
+                                mobile bookstore, a podcast host, a writer who collects
+                                stories about strangers, a couch surfer, and someone who
+                                wants to combine all the cool things above and beyond.
+                                “Yuan has initiated loads of fun in project courses with
+                                his students at an innovative high school. From
+                                integrating visual art design with sci-fi literature class
+                                to translating and publishing a book, to leading study
+                                trips to Malaysia and Tibet. At school, you could find
+                                Yuan teaching and leading in a classroom, trash-talking
+                                with students on the basketball court, playing with the
+                                student band at the graduation ceremony, and taking rock
+                                kids and drama aficionados to live houses and musicals.
                             </ProjectSectionText>
                             <ProjectSectionText>
-                                Yuan is also a English teacher through his WeChat Public
-                                Domain, developed “Words Origin Talk” through “Goral” app.
-                                He owns his mobile bookstore “Riddle”, also through his
-                                public domain in WeChat. Yuan puts all these literature
-                                and arts together, not only accomplish himself as an
-                                individual but also promote others’ developments.
+                                When you see Yuan at TEDx, he'd have probably driven
+                                Riddle, his mobile bookstore, across the cities and
+                                countryside of China, delivering warmth to strangers.
                             </ProjectSectionText>
                         </ProjectTextRow>
                         <Image
@@ -408,6 +394,61 @@ const ProjectSlice = () => {
                             className="piye"
                             sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
                         />
+                    </ProjectSectionContent>
+                </ProjectSection>
+                <ProjectSection>
+                    <ProjectSectionContent className="slice__grid">
+                        <div className="slice__grid-image">
+                            <div className="slice__grid-background">
+                                <Image
+                                    // className="wrapped-image"
+                                    // srcSet={`${sliceBackgroundBar} 400w, ${sliceBackgroundBarLarge} 898w`}
+                                    srcSet={`${shahid} 400w, ${shahid} 898w`}
+                                    placeholder={shahid}
+                                    className="leona"
+                                    alt=""
+                                    role="presentation"
+                                    sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
+                                />
+                            </div>
+                        </div>
+                        <div className="slice__grid-text">
+                            <ProjectSectionHeading>Shahid Anwar</ProjectSectionHeading>
+                            <ProjectSectionText
+                            // style={`(padding-left: ${media.mobile}px) 548px, (padding-left: ${media.tablet} 747px, 556px)`}
+                            // className="last-paragraph"
+                            >
+                                Shahid Anwar is a teacher of Mathematics at NKCS China. He
+                                has been involved in the field of education for more than
+                                a decade. He did his Master’s in Space Science from
+                                University of Punjab Pakistan and Post Graduate
+                                Certificate in Education from University of Sunderland,
+                                UK. He did not stop and is currently pursuing his Master’s
+                                in teaching mathematics from University of Waterloo,
+                                Canada. Shahid is a lifelong learner. After coming to
+                                China in 2012, he was deeply impressed by the Chinese
+                                language and culture. He taught himself Chinese and took
+                                part in several Chinese competitions for foreigners
+                                organized by TV and social platforms. In 2017, He won a
+                                video competition with the title “life of foreigners in
+                                Wuxi”. Shahid is originally from Pakistan, but he
+                                considers himself as an international citizen. His
+                                curiosity to learn about different cultures and people has
+                                made him travel to over 40 countries from the grasslands
+                                of New Zealand to the desserts of Africa. As an educator
+                                and international traveler, he believes that travelling is
+                                one the best forms of learning which provides us freedom,
+                                self-awareness, independence, joy, and consciousness. Like
+                                any other Millennial (born in 80’s and 90’s), Shahid has
+                                fully adapted himself to the rapid change in the field of
+                                technology, moving from floppy disks to the cloud storage.
+                                As a technophile, mathematician, international traveler,
+                                lifelong learner, and a common man, Shahid would like to
+                                share his personal experiences about the meaning of choice
+                                and how has it changed over the period of time and the
+                                role of technology in making this change.
+                            </ProjectSectionText>
+                        </div>
                     </ProjectSectionContent>
                 </ProjectSection>
                 <ProjectSection>
@@ -422,19 +463,19 @@ const ProjectSlice = () => {
                                 sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
                             />
                             <ProjectSectionText className="down-a-bit">
-                                “Dream, seek, achieve…” As the leader of the school’s
-                                poverty relief project, the 2021 full scholarship’s
-                                winner, and NSDA campus ambassador, this 15-year-old girl
-                                at Nanwai King’s College School always serves this as her
-                                greatest motto. Her team’s poverty relief story has now
-                                been written in China Daily, local newspaper, and known by
-                                more people through television. Her incredible enthusiasm
-                                in original oratory has helped her win the national
-                                champion in 2021’s TOC tournament following by tons of
-                                awards in NSDA. In her speech, Olivia’s going to talk
-                                about her poverty relief journey which brought a drastic
-                                change to her understanding of life and how her stereotype
-                                towards the poor gradually breaks down.
+                                “Be resilient, be proactive.” As the 2021 full scholarship
+                                winner, a leader of the school’s poverty relief project,
+                                and NSDA campus ambassador, this 15-year-old girl at
+                                Nanwai King’s College School always serves this as her
+                                greatest motto. Her incredible enthusiasm in original
+                                oratory has helped her win the national champion in 2021’s
+                                TOC tournament following by tons of awards in NSDA. Who
+                                knows that behind these glorious achievements, she had
+                                suffered years from the “toxic pressure “and was even once
+                                unable to get rid of depression? In her speech, Olivia’s
+                                going to talk about how the small-fish-big-pond effect
+                                blocks her way of self-pursuit and how we can transform
+                                the toxic pressure brought by it into something benign.
                             </ProjectSectionText>
                         </ProjectTextRow>
                     </ProjectSectionContent>
@@ -444,23 +485,16 @@ const ProjectSlice = () => {
                         <ProjectTextRow className="algin-left">
                             <ProjectSectionHeading>Yujia Fu</ProjectSectionHeading>
                             <ProjectSectionText>
-                                Currently working at UNESCO-ICUA as the head of education
-                                development and research team. Ms. Fu has received Master
-                                of Arts from Columbia University in the City of New York.
-                                While studying at Columbia University and the Graduate
-                                Institute of International and Development Studies in
-                                Geneva, she has developed her interest in global
-                                governance on international issues. She has been installed
-                                as Graduate Consultant and Education and Partnership
-                                Associate. Ms. Fu focuses on using educational approaches
-                                to engage young people contributing their talents to
-                                solving global challenges. Ms. Fu has gained sufficient
-                                research and analytical skills and practical skills which
-                                are needed for the educational development program during
-                                her extensive experiences working with educators and
-                                professionals at educational organizations. She is an
-                                outstanding leader who has a deep understanding of the
-                                cross-national education sector indeed.
+                                Ms Fu is currently working at UNESCO-ICUA as the head of
+                                education development and research team. While studying at
+                                Columbia University and the Graduate Institute of
+                                International and Development Studies in Geneva, she has
+                                developed her interest in global governance on
+                                international issues. Ms. Fu focuses on using educational
+                                approaches to engage young people contributing their
+                                talents to solving global challenges. Now she has become
+                                an outstanding leader who has a deep understanding of the
+                                cross-national education sector.
                             </ProjectSectionText>
                         </ProjectTextRow>
                         <Image
@@ -497,11 +531,10 @@ const ProjectSlice = () => {
                                 Currently working as an Admission Officer for Polaris
                                 Youth. Ms. Li has received the Bachelor of Engineering
                                 from Beijing Institute of Technology and the Master of
-                                Arts at Teachers College, Columbia. University on MA and
-                                Educational/Instructional technology. She has been
-                                installed as a digital marketing intern, instructor,
+                                Arts at Teachers College, Columbia University. She has
+                                been installed as a digital marketing intern, instructor,
                                 research assistant, and volunteer teaching assistant at
-                                Microsoft. Ms. Li used to work in digital marketing and
+                                Microsoft.Ms. Li used to work in digital marketing and
                                 technology education. But she has a unique understanding
                                 and determination towards freedom. Since Ms. Li decided to
                                 pursue what she truly needs, she takes part in the Polaris
